@@ -1,4 +1,6 @@
 import "@/assets/styles/global.css";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 export const metadata = {
   title: "Property | Find the Perfect Home",
@@ -10,7 +12,9 @@ export default function MainLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div>{children}</div>
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

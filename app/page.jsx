@@ -1,10 +1,14 @@
-import React from "react";
+import Hero from "@/components/Hero";
+import HomeProperties from "@/components/HomeProperties";
+import InfoBoxes from "@/components/InfoBoxes";
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>My first Page</h1>
-    </div>
+    <>
+      <Hero />
+      <InfoBoxes />
+      <HomeProperties />
+    </>
   );
 };
 
